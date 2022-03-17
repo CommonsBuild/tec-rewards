@@ -1,4 +1,4 @@
-Rewards Round Parameters – Rewards Round #1
+💸 Rewards Round Parameters – Rewards Round 1
 
 # July 2021
 
