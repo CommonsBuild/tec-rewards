@@ -1,8 +1,6 @@
-# Reward round Parameters
+Rewards Round Parameters – Rewards Round #1
 
-Round: Rewards Round #1
-
-## TEC Distribution
+# July 2021
 
 Total amount of TEC tokens to distribute this round: XXX
 
