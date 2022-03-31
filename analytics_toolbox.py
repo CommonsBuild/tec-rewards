@@ -63,9 +63,9 @@ def shannon_entropy(x):
 
 
 def prepare_praise_flow(dataframe_in, n_senders, n_receivers):
-    reference_df = dataframe_in[['FROM', 'TO', 'FINAL QUANT']].copy()
+    reference_df = dataframe_in[['FROM', 'TO', 'AVG SCORE']].copy()
     reference_df.reset_index(inplace=True, drop=True)
-    reference_df.dropna(subset=['FROM', 'TO', 'FINAL QUANT'], inplace=True)
+    reference_df.dropna(subset=['FROM', 'TO', 'AVG SCORE'], inplace=True)
     reference_df.reset_index(inplace=True, drop=True)
 
     # sank_df1=df1.copy()
@@ -76,15 +76,15 @@ def prepare_praise_flow(dataframe_in, n_senders, n_receivers):
 
     df_from = reference_df.groupby(['FROM']).sum().copy()
     df_from.reset_index(inplace=True, drop=False)
-    min_from = df_from['FINAL QUANT'].sort_values(ascending=False).unique()[n1]
+    min_from = df_from['AVG SCORE'].sort_values(ascending=False).unique()[n1]
     df_from2 = df_from.copy()
-    df_from2.loc[df_from2['FINAL QUANT'] < min_from, 'FROM'] = 'Rest from 1'
+    df_from2.loc[df_from2['AVG SCORE'] < min_from, 'FROM'] = 'Rest from 1'
 
     df_to = reference_df.groupby(['TO']).sum().copy()
     df_to.reset_index(inplace=True, drop=False)
-    min_to = df_to['FINAL QUANT'].sort_values(ascending=False).unique()[n2]
+    min_to = df_to['AVG SCORE'].sort_values(ascending=False).unique()[n2]
     df_to2 = df_to.copy()
-    df_to2.loc[df_to2['FINAL QUANT'] < min_to, 'TO'] = 'Rest to 1'
+    df_to2.loc[df_to2['AVG SCORE'] < min_to, 'TO'] = 'Rest to 1'
 
     df3 = reference_df.copy()
     i = 0
