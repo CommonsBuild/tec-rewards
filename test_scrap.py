@@ -1,6 +1,7 @@
 import papermill as pm
 import scrapbook as sb
 import oyaml as yaml
+import subprocess
  
 # Opening JSON file
 parsed_yaml = []
@@ -22,5 +23,6 @@ pm.execute_notebook(
 )
 
 #after that, running the following command in the terminal will output a pretty HTML with all the graphs but none of the code.
-#jupyter nbconvert --to html --TemplateExporter.exclude_input=True output_AnalysisTest.ipynb
+return_buf = subprocess.run("jupyter nbconvert --to html --TemplateExporter.exclude_input=True output_AnalysisTest.ipynb", shell=True)
+
 

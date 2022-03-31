@@ -1,0 +1,57 @@
+Folder Structure:
+
+tec-rewards
+	|---- main.py
+	|---- distribution_tools
+		|---- praise
+			|---- praiseDistribution.ipynb
+		|---- sourcred
+			|---- sourcecredDistribution.ipynb
+		. 
+	|---- analysis_tools
+		|---- general_tools.py #toolbox for analysis which basically just needs Datframes with an ID and a number. Generalized and reusable by anybody
+		|---- praise
+			|---- praise_tool_module.py # specific toolbox for praise-related analysis
+			|---- generalPraiseReport.ipynb
+			|---- praiseGiverAnalysis.ipynb
+			|---- quantifierAnalysis.ipynb
+		|---- sourcecred
+			|---- sourcecred_tool_module.py
+			|---- generalSourcecredReport.ipynb
+			|---- specificSourcecredAnalyis.ipynb
+		|---- coordinape
+			...
+		. 
+# in a production system this last folder would probably be a separate repository where the results get pushed automatically.
+	|---- data
+		|---- round1
+			|---- params.yaml
+			|---- praise.csv
+			|---- sourcecred.csv
+			|---- rewardboard.csv
+			|---- results
+				|---- output_notebooks
+					|---- round1_praiseDistribution_output.ipynb
+					|---- round1_generalPraiseReport_output.ipynb
+					|---- round1_praiseGiverAnalysis_output.ipynb
+					|---- round1_quantifierAnalysis_output.ipynb
+					|---- round1_generalSourcecredReport_output.ipynb
+					|---- round1_specificSourcecredAnalyis_output.ipynb
+				|---- reports
+					|---- generalPraiseReport.html
+					|---- praiseGiverAnalysis.html
+					|---- quantifierAnalysis.html
+					|---- generalSourcecredReport.html
+					|---- specificSourcecredAnalyis.html
+				|---- distribution
+					|---- final_rewards.csv
+					|---- extendend_praise_distribution_data.csv
+					|---- disperseApp_compatible_file.csv
+
+		|---- round2
+			...
+		.
+	|---- README.md					
+	.
+
+The idea would be that you only run main.py specifying the path to the round data. This could be automated to happen at the close of the quant round.
