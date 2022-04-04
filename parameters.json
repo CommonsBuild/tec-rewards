@@ -1,23 +1,17 @@
 {
   "distribution_name": "round_x",
-  "results_output_path": "./data",
+  "results_output_folder": "data",
   "employed_reward_systems": ["praise", "sourcecred"],
   "token_allocation_per_reward_system": ["4196", "1219"],
   "system_settings": {
     "praise": {
       "input_files": {
-        "praise_data": {
-          "filename": "praise.csv",
-          "path": "./"
-        },
-        "rewardboard_list": {
-          "filename": "rewardboard.csv",
-          "path": "./"
-        }
+        "praise_data": "./test_inputs/praise.csv",
+        "rewardboard_list": "./test_inputs/rewardboard.csv"
       },
       "payout_token": {
-        "token_name": "DAI",
-        "token_address": "0x....."
+        "token_name": "wxDAI",
+        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
       },
       "token_reward_percentages": {
         "contributor_rewards": 0.871067,
@@ -42,8 +36,8 @@
         }
       },
       "payout_token": {
-        "token_name": "DAI",
-        "token_address": "0x....."
+        "token_name": "wxDAI",
+        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
       }
     }
   }
