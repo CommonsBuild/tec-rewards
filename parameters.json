@@ -1,6 +1,6 @@
 {
   "distribution_name": "round_x",
-  "results_output_folder": "data",
+  "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
   "token_allocation_per_reward_system": ["4196", "1219"],
   "system_settings": {
@@ -30,10 +30,7 @@
     },
     "sourcecred": {
       "input_files": {
-        "praise_data": {
-          "filename": "sourcecred.csv",
-          "path": "./"
-        }
+        "sourcecred_data": "./test_inputs/sourcecred.csv"
       },
       "payout_token": {
         "token_name": "wxDAI",

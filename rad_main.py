@@ -1,93 +1,105 @@
+import os
+import subprocess
+import json
+import shutil
+from pathlib import Path
+
 import papermill as pm
 import scrapbook as sb
-import oyaml as yaml
-import subprocess
-import sys, json, os
-from pathlib import Path
-import math
- 
+
 
 params = {}
 with open("parameters.json", "r") as read_file:
     params = json.load(read_file)
 
-OUTPUT_PATH = "./" + params["results_output_folder"] + "/" + params["distribution_name"] + "/"
+# declare the paths where we want to save stuff as constants for easy reference
+ROOT_OUTPUT_PATH = "./" + \
+    params["results_output_folder"] + "/" + params["distribution_name"] + "/"
+RAW_DATA_OUTPUT_PATH = ROOT_OUTPUT_PATH + "data/"
+NOTEBOOK_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/output_notebooks/"
+REPORT_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/reports/"
+DISTRIBUTION_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/distribution/"
 
-#create output file structure:
-Path(OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
-Path(OUTPUT_PATH + "results/").mkdir(parents=True, exist_ok=True)
-Path(OUTPUT_PATH + "results/output_notebooks/").mkdir(parents=True, exist_ok=True)
-Path(OUTPUT_PATH + "results/reports/").mkdir(parents=True, exist_ok=True)
-Path(OUTPUT_PATH + "results/distribution/").mkdir(parents=True, exist_ok=True)
+# create output file structure:
+Path(ROOT_OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
+Path(RAW_DATA_OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
+Path(NOTEBOOK_OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
+Path(REPORT_OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
+Path(DISTRIBUTION_OUTPUT_PATH).mkdir(parents=True, exist_ok=True)
 
-#TO DO copy all input data into the main results folder
+# save all input files into the /results/data folder
+for system_name in params["employed_reward_systems"]:
+    for system_data in params["system_settings"]:
+        if system_name == system_data:
+            for in_file in params["system_settings"][system_data]["input_files"]:
+                input_path = params["system_settings"][system_data]["input_files"][in_file]
+                # print(input_path)
+                shutil.copy(input_path, RAW_DATA_OUTPUT_PATH)
 
-
-#apply all specified reward systems
+# apply all specified reward systems
 for i, reward_system in enumerate(params["employed_reward_systems"]):
-	#TO DO: MOVE THIS TO INDEPENDENT FUNCTIONS FOR EACH SYSTEM AND CREATE __INIT__ !!!!
-	if reward_system == "praise":
-		total_tokens_allocated = params["token_allocation_per_reward_system"][i]
-		system_params = params["system_settings"][reward_system]
-		
-		#we add the results path for the exports
-		system_params["distribution_name"] = params["distribution_name"]
-		system_params["results_output_folder"] = params["results_output_folder"]
-	 
-		
-		print(system_params["token_reward_percentages"]["contributor_rewards"])
-		
-		#distribution
-		dist_input_path = "./distribution_tools/" + reward_system + "/praiseDist_test.ipynb"
-		dist_output_path = OUTPUT_PATH + "results/output_notebooks/output_distTest.ipynb"
-		
-		print(dist_output_path)
-
-		pm.execute_notebook(
-		   dist_input_path,
-		   dist_output_path,
-		   parameters = system_params
-		)
-		
-		#analysis
-
-		#for each notebook
-		ANALYSIS_ROOT_PATH= "./analysis_tools/notebooks/praise/"
-		analysis_params= {"dist_notebook_path": dist_output_path}
-		for notebook in os.listdir(ANALYSIS_ROOT_PATH):
-			#TO DO make sure its a .ipynb file (save name while we are at it)
-			
-			#run it
-			INPUT_NOTEBOOK_PATH = ANALYSIS_ROOT_PATH + notebook
-			OUTPUT_NOTEBOOK_PATH = ANALYSIS_ROOT_PATH + "output_" + notebook
-			pm.execute_notebook(
-				INPUT_NOTEBOOK_PATH,
-   				OUTPUT_NOTEBOOK_PATH,
-   				parameters = analysis_params
-			)
-			# generate HTML report
-			return_buf = subprocess.run("jupyter nbconvert --to html --TemplateExporter.exclude_input=True %s"%OUTPUT_NOTEBOOK_PATH, shell=True)
-			#move it to right folder
-			
-			
-			#TO DO: sort out moving the result notebook and the HTML
-			
-			#NEW_OUTPUT_PATH = OUTPUT_PATH + "results/output_notebooks/output_" + notebook
-			#os.rename(OUTPUT_NOTEBOOK_PATH, NEW_OUTPUT_PATH)
-
-			
-	if reward_system == "sourcecred":
-		print("Sourcecred not implemented")
 
 
+    # ====== DISTRIBUTION =========
+    
+    # prepare the parameter set we will send to the distribution and the folder with the notebook templates
+    system_params = params["system_settings"][reward_system]
+    system_params["total_tokens_allocated"] = params["token_allocation_per_reward_system"][i]
+    system_params["distribution_name"] = params["distribution_name"]
+    system_params["results_output_folder"] = params["results_output_folder"]
+
+    DISTRIBUTION_NOTEBOOK_FOLDER = "./distribution_tools/" + reward_system + "/"
+
+    # run all notebooks in the relevant distribution folder
+    for notebook in os.listdir(DISTRIBUTION_NOTEBOOK_FOLDER):
+        # make sure we only use .ipynb files
+        if not (notebook.endswith(".ipynb")):
+            continue
+
+        dist_input_path = DISTRIBUTION_NOTEBOOK_FOLDER + notebook
+        dist_output_path = NOTEBOOK_OUTPUT_PATH + "output_" + notebook
+
+        # print(dist_output_path)
+
+        pm.execute_notebook(
+            dist_input_path,
+            dist_output_path,
+            parameters=system_params
+        )
+
+    # ====== ANALYSIS =========
+
+    # prepare the parameter set we will use for analysis and the folder with the notebook templates
+    analysis_params = {"dist_notebook_path": dist_output_path}
+    
+    ANALYSIS_NOTEBOOK_FOLDER = "./analysis_tools/notebooks/" + reward_system + "/"
+
+    # run all notebooks in the analysis folder
+    for notebook in os.listdir(ANALYSIS_NOTEBOOK_FOLDER):
+
+        # make sure we only use .ipynb files
+        if not (notebook.endswith(".ipynb")):
+            continue
 
 
-#import params.json
-#save basic data (output path ) 
-#for each [reward_system]
-	#send data to distribution notebook
-	#save results to output path
-	#perform analysis
-	#save results to output path
-	#for each [analysis notebook result]
-		#export that notebook to html
+        nb_input_path = ANALYSIS_NOTEBOOK_FOLDER + notebook
+        nb_destination_path = NOTEBOOK_OUTPUT_PATH + "output_" + notebook
+        
+        pm.execute_notebook(
+            nb_input_path,
+            nb_destination_path,
+            parameters=analysis_params
+        )
+        
+        # generate HTML report
+        return_buf = subprocess.run(
+            "jupyter nbconvert --to html --TemplateExporter.exclude_input=True %s" % nb_destination_path, shell=True)
+       
+       
+        # move it to right folder
+        html_report_origin = nb_destination_path[:-6] + ".html"
+        html_report_destination = REPORT_OUTPUT_PATH + \
+            notebook[:-6] + "_Report.html"
+        os.rename(html_report_origin, html_report_destination)
+
+
