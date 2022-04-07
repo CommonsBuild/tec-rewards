@@ -1,4 +1,4 @@
-**[NOTE: This is a Work-In-Progress. The default settings take inputs stored in "test_inputs" and save them in a folder called "round_x"]**
+**[NOTE: This is a Work-In-Progress. The default settings take inputs stored in "test_inputs" and save them in a folder called "round_x", using dummy notebooks]**
 # Modular R.A.D Dashboard
 
 This is the repository for the modular Reward Analysis and Distribution Dashboard (R.A.D.D). The system takes a set of raw  DAO activity records and calculates a corresponding token distribution, along with generating HTML reports analyzing the data. This is done through a set of interconnected Jupyter notebooks.
