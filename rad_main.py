@@ -7,9 +7,20 @@ from pathlib import Path
 import papermill as pm
 import scrapbook as sb
 
+import argparse
+
+
+parser = argparse.ArgumentParser(
+    description='RAD main script')
+parser.add_argument("-p", "--parameters", type=str, required=True, 
+                    help="File with the distribution parameters")
+
+args = parser.parse_args()                    
+input_parameters = args.parameters
+
 
 params = {}
-with open("parameters.json", "r") as read_file:
+with open(input_parameters, "r") as read_file:
     params = json.load(read_file)
 
 # declare the paths where we want to save stuff as constants for easy reference
