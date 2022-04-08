@@ -7,7 +7,7 @@ This program is intended to run on the backend server of a DAO's reward system, 
 
 ## Setup
  
-0.  As a beginning step, it is recommended to create a fresh python virtual environment for the installation. A tutorial can be found [here](https://www.tutorialspoint.com/python-virtual-environment) 
+0.  As a beginning step, it is recommended to create a fresh python virtual environment for the installation. A tutorial using ``virtualenv`` can be found [here](https://www.tutorialspoint.com/python-virtual-environment) or you can use [anacoda to manage environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands). You will need **python 3.9**.
 
 1. Once we are inside the virtual environment, run tho following command in the root folder:   
 
