@@ -85,32 +85,35 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
     
     ANALYSIS_NOTEBOOK_FOLDER = "./analysis_tools/notebooks/" + reward_system + "/"
 
-    # run all notebooks in the analysis folder
-    for notebook in os.listdir(ANALYSIS_NOTEBOOK_FOLDER):
+    if not os.path.isdir(ANALYSIS_NOTEBOOK_FOLDER):
+        print(f'{reward_system} analysis notebook not provided, skip analysis.')
+    else:
+        # run all notebooks in the analysis folder
+        for notebook in os.listdir(ANALYSIS_NOTEBOOK_FOLDER):
 
-        # make sure we only use .ipynb files
-        if not (notebook.endswith(".ipynb")):
-            continue
+            # make sure we only use .ipynb files
+            if not (notebook.endswith(".ipynb")):
+                continue
 
 
-        nb_input_path = ANALYSIS_NOTEBOOK_FOLDER + notebook
-        nb_destination_path = NOTEBOOK_OUTPUT_PATH + "output_" + notebook
-        
-        pm.execute_notebook(
-            nb_input_path,
-            nb_destination_path,
-            parameters=analysis_params
-        )
-        
-        # generate HTML report
-        return_buf = subprocess.run(
-            "jupyter nbconvert --to html --TemplateExporter.exclude_input=True %s" % nb_destination_path, shell=True)
-       
-       
-        # move it to right folder
-        html_report_origin = nb_destination_path[:-6] + ".html"
-        html_report_destination = REPORT_OUTPUT_PATH + \
-            notebook[:-6] + "_Report.html"
-        os.rename(html_report_origin, html_report_destination)
+            nb_input_path = ANALYSIS_NOTEBOOK_FOLDER + notebook
+            nb_destination_path = NOTEBOOK_OUTPUT_PATH + "output_" + notebook
+
+            pm.execute_notebook(
+                nb_input_path,
+                nb_destination_path,
+                parameters=analysis_params
+            )
+
+            # generate HTML report
+            return_buf = subprocess.run(
+                "jupyter nbconvert --to html --TemplateExporter.exclude_input=True %s" % nb_destination_path, shell=True)
+
+
+            # move it to right folder
+            html_report_origin = nb_destination_path[:-6] + ".html"
+            html_report_destination = REPORT_OUTPUT_PATH + \
+                notebook[:-6] + "_Report.html"
+            os.rename(html_report_origin, html_report_destination)
 
 
