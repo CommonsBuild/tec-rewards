@@ -83,7 +83,7 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
     for output_csv in os.listdir():
         if not (output_csv.endswith(".csv")):
             continue
-        print(output_csv)
+        #print(output_csv)
         csv_destination = DISTRIBUTION_OUTPUT_PATH + output_csv
         os.rename(output_csv, csv_destination)
 
@@ -119,9 +119,9 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
             if not (analysis_csv.endswith(".csv")):
                 continue
 
-            print(analysis_csv)
+            #print(analysis_csv)
             csv_destination = NOTEBOOK_OUTPUT_PATH + analysis_csv
-            print(csv_destination)
+            #print(csv_destination)
             os.rename(analysis_csv, csv_destination)
 
         # move it to right folder
