@@ -656,7 +656,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "367262263096377344",
     "name": "Techno#8514",
     "avatarId": null,
     "platform": "DISCORD"
@@ -854,7 +854,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "367262263096377344",
     "name": "Techno#8514",
     "avatarId": null,
     "platform": "DISCORD"
@@ -1340,7 +1340,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "367262263096377344",
     "name": "Techno#8514",
     "avatarId": null,
     "platform": "DISCORD"
@@ -1484,7 +1484,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "367262263096377344",
     "name": "Techno#8514",
     "avatarId": null,
     "platform": "DISCORD"
@@ -3212,7 +3212,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "818692426330800139",
     "name": "annbrody3#3538",
     "avatarId": null,
     "platform": "DISCORD"
@@ -6146,7 +6146,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "818692426330800139",
     "name": "annbrody3#3538",
     "avatarId": null,
     "platform": "DISCORD"
@@ -7406,7 +7406,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "289575160519065602",
     "name": "DerpTwerks#3420",
     "avatarId": null,
     "platform": "DISCORD"
@@ -7676,7 +7676,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "289575160519065602",
     "name": "DerpTwerks#3420",
     "avatarId": null,
     "platform": "DISCORD"
@@ -17054,7 +17054,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "818692426330800139",
     "name": "annbrody3#3538",
     "avatarId": null,
     "platform": "DISCORD"
@@ -20744,7 +20744,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "700029358735360000",
     "name": "russlive215 (🧙🏾, 🧙🏾)#8460",
     "avatarId": null,
     "platform": "DISCORD"
@@ -21428,7 +21428,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "880971639163076608",
     "name": "Christina (BorrowLucid)#3036",
     "avatarId": null,
     "platform": "DISCORD"
@@ -22922,7 +22922,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "880971639163076608",
     "name": "Christina (BorrowLucid)#3036",
     "avatarId": null,
     "platform": "DISCORD"
@@ -30932,7 +30932,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -31016,7 +31016,7 @@
 {
   "createdAt": "2022-02-03 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -31670,7 +31670,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -38078,7 +38078,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "554786778289274880",
     "name": "itsyaboi#2591",
     "avatarId": null,
     "platform": "DISCORD"
@@ -38312,7 +38312,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -39464,8 +39464,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "enrique.mdc#0357",
+    "accountId": "756494830397292564",
+    "name": "enrique.mdc#357",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -40688,7 +40688,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "457302093435371542",
     "name": "mmurthy | showkarma.xyz#4254",
     "avatarId": null,
     "platform": "DISCORD"
@@ -41372,7 +41372,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "457302093435371542",
     "name": "mmurthy | showkarma.xyz#4254",
     "avatarId": null,
     "platform": "DISCORD"
@@ -41888,7 +41888,7 @@
 {
   "createdAt": "2022-02-11 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "457302093435371542",
     "name": "mmurthy | showkarma.xyz#4254",
     "avatarId": null,
     "platform": "DISCORD"
@@ -41906,7 +41906,7 @@
 {
   "createdAt": "2022-02-11 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "457302093435371542",
     "name": "mmurthy | showkarma.xyz#4254",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42380,7 +42380,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "873449111322505276",
     "name": "Ale borda#2295",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42470,8 +42470,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "kylejensen.eth#0420",
+    "accountId": "376458299773812746",
+    "name": "kylejensen.eth#420",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -42488,7 +42488,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "810362798169129011",
     "name": "LBrian#6883",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42524,7 +42524,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42542,7 +42542,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "677039179405721630",
     "name": "monicazng#7334",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42560,7 +42560,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "352224331474010112",
     "name": "Naberius#4935",
     "avatarId": null,
     "platform": "DISCORD"
@@ -42596,7 +42596,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "742336057009504286",
     "name": "usamaahmed#9991",
     "avatarId": null,
     "platform": "DISCORD"
@@ -44414,7 +44414,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -47324,7 +47324,7 @@
 {
   "createdAt": "2022-02-19 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -47366,7 +47366,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -47384,7 +47384,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -48248,7 +48248,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -48260,7 +48260,7 @@
 {
   "createdAt": "2022-02-20 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -48278,7 +48278,7 @@
 {
   "createdAt": "2022-02-20 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "922194145324441631",
     "name": "kishore#6162",
     "avatarId": null,
     "platform": "DISCORD"
@@ -49544,7 +49544,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -49598,7 +49598,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "865691039468617748",
     "name": "Aemikorobinson#5961",
     "avatarId": null,
     "platform": "DISCORD"
@@ -49616,7 +49616,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -49634,7 +49634,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -50138,7 +50138,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "690837051377188915",
     "name": "AcidCavin#8307",
     "avatarId": null,
     "platform": "DISCORD"
@@ -50192,7 +50192,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -50210,7 +50210,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -50732,7 +50732,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "691020255580913796",
     "name": "zhiwei#1356",
     "avatarId": null,
     "platform": "DISCORD"
@@ -51974,7 +51974,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "925478714798641244",
     "name": "gcgd_2534#8784",
     "avatarId": null,
     "platform": "DISCORD"
@@ -51992,7 +51992,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "257479465091858432",
     "name": "jimscarver#5578",
     "avatarId": null,
     "platform": "DISCORD"
@@ -52064,7 +52064,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -52154,7 +52154,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "742336057009504286",
     "name": "usamaahmed#9991",
     "avatarId": null,
     "platform": "DISCORD"
@@ -52802,7 +52802,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -54314,7 +54314,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "925478714798641244",
     "name": "gcgd_2534#8784",
     "avatarId": null,
     "platform": "DISCORD"
@@ -54332,7 +54332,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "257479465091858432",
     "name": "jimscarver#5578",
     "avatarId": null,
     "platform": "DISCORD"
@@ -54404,7 +54404,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -54494,7 +54494,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "742336057009504286",
     "name": "usamaahmed#9991",
     "avatarId": null,
     "platform": "DISCORD"
@@ -55034,7 +55034,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -55610,7 +55610,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "600781995811012620",
     "name": "Eclipsingbinary#7338",
     "avatarId": null,
     "platform": "DISCORD"
@@ -55730,13 +55730,13 @@
 {
   "createdAt": "2022-03-03 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -55748,7 +55748,7 @@
 {
   "createdAt": "2022-03-03 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -55790,7 +55790,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56054,7 +56054,7 @@
 {
   "createdAt": "2022-03-03 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56198,13 +56198,13 @@
 {
   "createdAt": "2022-03-04 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56216,7 +56216,7 @@
 {
   "createdAt": "2022-03-04 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56240,7 +56240,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56684,7 +56684,7 @@
 {
   "createdAt": "2022-03-04 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -56702,7 +56702,7 @@
 {
   "createdAt": "2022-03-04 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -57014,7 +57014,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -57158,7 +57158,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -57512,7 +57512,7 @@
 {
   "createdAt": "2022-03-05 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -57608,7 +57608,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "804310250445996032",
     "name": "Drew Swissroll#2278",
     "avatarId": null,
     "platform": "DISCORD"
@@ -58346,7 +58346,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -58652,7 +58652,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "630667848355807233",
     "name": "Jeanne#8780",
     "avatarId": null,
     "platform": "DISCORD"
@@ -58688,7 +58688,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -58706,7 +58706,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "865691039468617748",
     "name": "Aemikorobinson#5961",
     "avatarId": null,
     "platform": "DISCORD"
@@ -58778,7 +58778,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -59660,7 +59660,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "813280635132575764",
     "name": "MargaritaDave#8576",
     "avatarId": null,
     "platform": "DISCORD"
@@ -59750,7 +59750,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -59804,7 +59804,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "735090955560157185",
     "name": "Jolly LaMa#5962",
     "avatarId": null,
     "platform": "DISCORD"
@@ -59912,7 +59912,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -59984,7 +59984,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -60056,7 +60056,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -60092,8 +60092,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "noah_saav#0338",
+    "accountId": "740668571755086006",
+    "name": "noah_saav#338",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -60470,7 +60470,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "935998232427921429",
     "name": "ClaraZi#5313",
     "avatarId": null,
     "platform": "DISCORD"
@@ -60578,7 +60578,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "600781995811012620",
     "name": "Eclipsingbinary#7338",
     "avatarId": null,
     "platform": "DISCORD"
@@ -60848,7 +60848,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61076,7 +61076,7 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61094,7 +61094,7 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61112,7 +61112,7 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61130,7 +61130,7 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61148,7 +61148,7 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61166,13 +61166,13 @@
 {
   "createdAt": "2022-03-16 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -61514,7 +61514,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -62036,7 +62036,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -62198,7 +62198,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -62828,7 +62828,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -62900,8 +62900,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "Mike Brunt#0745",
+    "accountId": "323858083996499969",
+    "name": "Mike Brunt#745",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -63584,7 +63584,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -64628,8 +64628,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "Mike Brunt#0745",
+    "accountId": "323858083996499969",
+    "name": "Mike Brunt#745",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -64898,7 +64898,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "783706133822570529",
     "name": "𝗨𝗻𝗶𝗣𝘂𝗳𝗳 🜐🐙#9571",
     "avatarId": null,
     "platform": "DISCORD"
@@ -64916,7 +64916,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -64952,7 +64952,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "865691039468617748",
     "name": "Aemikorobinson#5961",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65276,7 +65276,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "864406808436277248",
     "name": "rx#5834",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65756,13 +65756,13 @@
 {
   "createdAt": "2022-03-20 00:00:00 +0100",
   "giver": {
-    "accountId": null,
-    "name": "grittykitty#0518",
+    "accountId": "312779550230708225",
+    "name": "grittykitty#518",
     "avatarId": null,
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65774,8 +65774,8 @@
 {
   "createdAt": "2022-03-20 00:00:00 +0100",
   "giver": {
-    "accountId": null,
-    "name": "grittykitty#0518",
+    "accountId": "312779550230708225",
+    "name": "grittykitty#518",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -65924,7 +65924,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "216946363584348162",
     "name": "Costa#7828",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65942,7 +65942,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "783706133822570529",
     "name": "𝗨𝗻𝗶𝗣𝘂𝗳𝗳 🜐🐙#9571",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65978,7 +65978,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -65996,7 +65996,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "865691039468617748",
     "name": "Aemikorobinson#5961",
     "avatarId": null,
     "platform": "DISCORD"
@@ -66050,7 +66050,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "457302093435371542",
     "name": "mmurthy | showkarma.xyz#4254",
     "avatarId": null,
     "platform": "DISCORD"
@@ -66554,7 +66554,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67310,7 +67310,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "344928363753897986",
     "name": "dghelm#8125",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67328,7 +67328,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "255832236555894794",
     "name": "no_planet_b | PST#6481",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67346,7 +67346,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "917879013228302398",
     "name": "Sandra_Bubbles#7307",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67364,7 +67364,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "374977737334456320",
     "name": "ombudsman#3822",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67382,7 +67382,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "495173629189947392",
     "name": "Joao#5751",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67400,7 +67400,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "750921605512691863",
     "name": "Shardul#8924",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67418,7 +67418,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "956169738495610880",
     "name": "Baris#3853",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67436,7 +67436,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67454,7 +67454,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "908799381229154314",
     "name": "xirclev#9865",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67472,8 +67472,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "waifu_jpeg#0690",
+    "accountId": "473674801563697153",
+    "name": "waifu_jpeg#690",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -67778,7 +67778,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "450515273079062539",
     "name": "alpine.lines#3050",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67826,7 +67826,7 @@
 {
   "createdAt": "2022-03-24 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67844,7 +67844,7 @@
 {
   "createdAt": "2022-03-24 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67862,7 +67862,7 @@
 {
   "createdAt": "2022-03-24 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67880,7 +67880,7 @@
 {
   "createdAt": "2022-03-24 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67898,7 +67898,7 @@
 {
   "createdAt": "2022-03-24 00:00:00 +0100",
   "giver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -67976,7 +67976,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "144927134492786688",
     "name": "Maxwe11#7157",
     "avatarId": null,
     "platform": "DISCORD"
@@ -68534,7 +68534,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -68714,7 +68714,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "897541670793515071",
     "name": "AnaTech.eth#7412",
     "avatarId": null,
     "platform": "DISCORD"
@@ -68840,7 +68840,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "897541670793515071",
     "name": "AnaTech.eth#7412",
     "avatarId": null,
     "platform": "DISCORD"
@@ -68876,7 +68876,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -68948,7 +68948,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69020,7 +69020,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "231778204950462464",
     "name": "SatoriD#2945",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69218,7 +69218,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "917879013228302398",
     "name": "Sandra_Bubbles#7307",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69254,7 +69254,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "897541670793515071",
     "name": "AnaTech.eth#7412",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69290,7 +69290,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "897541670793515071",
     "name": "AnaTech.eth#7412",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69416,8 +69416,8 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
-    "name": "Mike Brunt#0745",
+    "accountId": "323858083996499969",
+    "name": "Mike Brunt#745",
     "avatarId": null,
     "platform": "DISCORD"
   },
@@ -69740,7 +69740,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69752,7 +69752,7 @@
 {
   "createdAt": "2022-03-30 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69770,7 +69770,7 @@
 {
   "createdAt": "2022-03-30 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69794,7 +69794,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "963448366405156944",
     "name": "boonjue.eth#7124",
     "avatarId": null,
     "platform": "DISCORD"
@@ -69812,7 +69812,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70058,7 +70058,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70076,7 +70076,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70094,7 +70094,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70112,7 +70112,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70130,13 +70130,13 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "902543185367142400",
     "name": "pat.zip (TE Academy)#5266",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70298,7 +70298,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "781249504396836915",
     "name": "evanjacobs#6864",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70310,7 +70310,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "781249504396836915",
     "name": "evanjacobs#6864",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70406,7 +70406,7 @@
     "platform": "DISCORD"
   },
   "receiver": {
-    "accountId": null,
+    "accountId": "836058804759691265",
     "name": "bear100#9085",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70454,7 +70454,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "927015135141306408",
     "name": "samb#4938",
     "avatarId": null,
     "platform": "DISCORD"
@@ -70472,7 +70472,7 @@
 {
   "createdAt": "2022-03-31 00:00:00 +0200",
   "giver": {
-    "accountId": null,
+    "accountId": "927015135141306408",
     "name": "samb#4938",
     "avatarId": null,
     "platform": "DISCORD"
