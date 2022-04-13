@@ -12,10 +12,10 @@ import argparse
 
 parser = argparse.ArgumentParser(
     description='RAD main script')
-parser.add_argument("-p", "--parameters", type=str, required=True, 
+parser.add_argument("-p", "--parameters", type=str, required=True,
                     help="File with the distribution parameters")
 
-args = parser.parse_args()                    
+args = parser.parse_args()
 input_parameters = args.parameters
 
 
@@ -27,7 +27,7 @@ with open(input_parameters, "r") as read_file:
 ROOT_OUTPUT_PATH = "./" + \
     params["results_output_folder"] + "/" + params["distribution_name"] + "/"
 RAW_DATA_OUTPUT_PATH = ROOT_OUTPUT_PATH + "data/"
-NOTEBOOK_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/output_notebooks/"
+NOTEBOOK_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/analysis_outputs/"
 REPORT_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/reports/"
 DISTRIBUTION_OUTPUT_PATH = ROOT_OUTPUT_PATH + "results/distribution/"
 
@@ -46,13 +46,14 @@ for system_name in params["employed_reward_systems"]:
                 input_path = params["system_settings"][system_data]["input_files"][in_file]
                 # print(input_path)
                 shutil.copy(input_path, RAW_DATA_OUTPUT_PATH)
+# Also save the distribution params
+shutil.copy(input_parameters, RAW_DATA_OUTPUT_PATH)
 
 # apply all specified reward systems
 for i, reward_system in enumerate(params["employed_reward_systems"]):
 
-
     # ====== DISTRIBUTION =========
-    
+
     # prepare the parameter set we will send to the distribution and the folder with the notebook templates
     system_params = params["system_settings"][reward_system]
     system_params["total_tokens_allocated"] = params["token_allocation_per_reward_system"][i]
@@ -78,11 +79,19 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
             parameters=system_params
         )
 
+    # copy generated distribution files to results folder
+    for output_csv in os.listdir():
+        if not (output_csv.endswith(".csv")):
+            continue
+        #print(output_csv)
+        csv_destination = DISTRIBUTION_OUTPUT_PATH + output_csv
+        os.rename(output_csv, csv_destination)
+
     # ====== ANALYSIS =========
 
     # prepare the parameter set we will use for analysis and the folder with the notebook templates
     analysis_params = {"dist_notebook_path": dist_output_path}
-    
+
     ANALYSIS_NOTEBOOK_FOLDER = "./analysis_tools/notebooks/" + reward_system + "/"
 
     if not os.path.isdir(ANALYSIS_NOTEBOOK_FOLDER):
