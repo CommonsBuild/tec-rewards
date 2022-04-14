@@ -55,3 +55,4 @@ def prepare_praise_flow(dataframe_in, n_senders, n_receivers):
 
     # df3=reference_df.copy()
     #df3.loc[df3['nominated_stake']<
+    return df4
