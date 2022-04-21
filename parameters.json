@@ -20,7 +20,7 @@
         "_comment": "These percentages are tweaked so a regular praise+sourcecred allocation amounts to 7% of total rewards to quantfiers and 3% to the rewardboard."
       },
       "quantification_settings": {
-        "number_of_quantifiers_per_praise_receiver": 3,
+        "number_of_quantifiers_per_praise_receiver": 4,
         "praise_quantify_allowed_values": [
           0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144
         ],
