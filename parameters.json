@@ -2,7 +2,7 @@
   "distribution_name": "round_7",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["4196", "1219"],
+  "token_allocation_per_reward_system": ["8835", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
