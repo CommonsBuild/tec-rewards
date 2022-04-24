@@ -12,6 +12,8 @@ __pycache__/
 
 # results of the test runs, for now
 /distribution_results/*
+/original_data/*
+
 
 # Distribution / packaging
 .Python
