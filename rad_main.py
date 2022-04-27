@@ -12,11 +12,11 @@ import argparse
 
 parser = argparse.ArgumentParser(
     description='RAD main script')
-parser.add_argument("-p", "--parameters", type=str, required=True,
-                    help="File with the distribution parameters")
+parser.add_argument("-r", "--round_name", type=str, required=True,
+                    help="Name of the folder in /original_data for which we'll do the analysis")
 
 args = parser.parse_args()
-input_parameters = args.parameters
+input_parameters = "./original_data/" + args.round_name + "/parameters.json"
 
 
 params = {}
@@ -24,6 +24,8 @@ with open(input_parameters, "r") as read_file:
     params = json.load(read_file)
 
 # declare the paths where we want to save stuff as constants for easy reference
+ROOT_INPUT_PATH = "./original_data/" + args.round_name + "/"
+
 ROOT_OUTPUT_PATH = "./" + \
     params["results_output_folder"] + "/" + params["distribution_name"] + "/"
 RAW_DATA_OUTPUT_PATH = ROOT_OUTPUT_PATH + "data/"
@@ -43,9 +45,12 @@ for system_name in params["employed_reward_systems"]:
     for system_data in params["system_settings"]:
         if system_name == system_data:
             for in_file in params["system_settings"][system_data]["input_files"]:
-                input_path = params["system_settings"][system_data]["input_files"][in_file]
-                # print(input_path)
+                input_path = ROOT_INPUT_PATH + params["system_settings"][system_data]["input_files"][in_file]
+                
+                #print(input_path)
                 shutil.copy(input_path, RAW_DATA_OUTPUT_PATH)
+                params["system_settings"][system_data]["input_files"][in_file] = input_path
+                #print(in_file)
 # Also save the distribution params
 shutil.copy(input_parameters, RAW_DATA_OUTPUT_PATH)
 
@@ -59,6 +64,7 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
     system_params["total_tokens_allocated"] = params["token_allocation_per_reward_system"][i]
     system_params["distribution_name"] = params["distribution_name"]
     system_params["results_output_folder"] = params["results_output_folder"]
+    
 
     DISTRIBUTION_NOTEBOOK_FOLDER = "./distribution_tools/" + reward_system + "/"
 
