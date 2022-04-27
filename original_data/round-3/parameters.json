@@ -2,7 +2,7 @@
   "distribution_name": "round-3",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["8550", "0"],
+  "token_allocation_per_reward_system": ["4020", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
@@ -10,8 +10,8 @@
         "rewardboard_list": "rewardboard.csv"
       },
       "payout_token": {
-        "token_name": "wxDAI",
-        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
       },
       "token_reward_percentages": {
         "contributor_rewards": 0.9,
@@ -32,8 +32,8 @@
         "sourcecred_data": "sourcecred.csv"
       },
       "payout_token": {
-        "token_name": "wxDAI",
-        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
       }
     }
   }

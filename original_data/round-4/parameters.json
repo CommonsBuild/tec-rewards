@@ -2,7 +2,7 @@
   "distribution_name": "round-4",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["8835", "0"],
+  "token_allocation_per_reward_system": ["4154", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
@@ -10,14 +10,13 @@
         "rewardboard_list": "rewardboard.csv"
       },
       "payout_token": {
-        "token_name": "wxDAI",
-        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
       },
       "token_reward_percentages": {
         "contributor_rewards": 0.9,
         "quantifier_rewards": 0.07,
-        "rewardboard_rewards": 0.03,
-        "_comment": "These percentages are tweaked so a regular praise+sourcecred allocation amounts to 7% of total rewards to quantfiers and 3% to the rewardboard."
+        "rewardboard_rewards": 0.03
       },
       "quantification_settings": {
         "number_of_quantifiers_per_praise_receiver": 4,
@@ -33,8 +32,8 @@
         "sourcecred_data": "sourcecred.csv"
       },
       "payout_token": {
-        "token_name": "wxDAI",
-        "token_address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
       }
     }
   }
