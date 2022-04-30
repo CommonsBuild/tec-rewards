@@ -18,8 +18,9 @@ pip install -r requirements.txt
 ```
 2. Now you just have to run 
 ```bash 
- python rad_main.py -p parameters.json
+ python rad_main.py -r round-x
 ```
+x is the number of round to work on.
 
 The script will take the information in the specified parameters file and save the resulting artefacts in a new folder inside the "distribution_results" folder. This folder is intended to be easily auditable and in a production system would probably be a separate repository for clear access control.
 
