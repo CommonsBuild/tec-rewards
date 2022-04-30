@@ -64,7 +64,6 @@ for i, reward_system in enumerate(params["employed_reward_systems"]):
     system_params["total_tokens_allocated"] = params["token_allocation_per_reward_system"][i]
     system_params["distribution_name"] = params["distribution_name"]
     system_params["results_output_folder"] = params["results_output_folder"]
-    
 
     DISTRIBUTION_NOTEBOOK_FOLDER = "./distribution_tools/" + reward_system + "/"
 
