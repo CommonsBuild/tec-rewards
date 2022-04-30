@@ -23,7 +23,7 @@
         "praise_quantify_allowed_values": [
           0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144
         ],
-        "praise_quantify_receiver_prseudonyms": false,
+        "praise_quantify_receiver_pseudonyms": false,
         "praise_quantify_duplicate_praise_valuation": 0.1
       }
     },
