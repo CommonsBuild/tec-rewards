@@ -1,23 +1,23 @@
-💸 Rewards Round Parameters – Rewards Round 1
+💸 Rewards Round Parameters – Rewards Round 3
 
-# October 2021
+# September 2021
 
-Total amount of DAI to distribute this round: **8835**
+Total amount of TEC to distribute this round: **8703**
 
-The allocated amount of DAI tokens will be be paid out to three entities - the **Reward Board**, **Quantifiers**, and **Contributors**. The allocated DAI amounts are converted and paid out in TEC tokens.
+The allocated amount of TEC tokens will be be paid out to three entities - the **Reward Board**, **Quantifiers**, and **Contributors**.
 
 | Entity       | Percentage | Amount |
 | ------------ | ---------- | ------ |
-| Reward Board | 3%         | 265    |
-| Quantifiers  | 7%         | 618    |
-| Contributors | 90%        | 7952   |
+| Reward Board | 3%         | 261    |
+| Quantifiers  | 7%         | 609    |
+| Contributors | 90%        | 7833   |
 
 The contributor allocation will be split the following way:
 
 | Platform   | Percentage | Amount |
 | ---------- | ---------- | ------ |
 | SourceCred | 0%         |        |
-| Praise     | 100%       | 8835   |
+| Praise     | 100%       | 7833   |
 
 ## Praise parameters
 

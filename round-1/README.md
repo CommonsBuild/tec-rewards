@@ -2,22 +2,22 @@
 
 # July 2021
 
-Total amount of DAI to distribute this round: **5415**
+Total amount of TEC to distribute this round: **2546**
 
-The allocated amount of DAI tokens will be be paid out to three entities - the **Reward Board**, **Quantifiers**, and **Contributors**. The allocated DAI amounts are converted and paid out in TEC tokens.
+The allocated amount of TEC tokens will be be paid out to three entities - the **Reward Board**, **Quantifiers**, and **Contributors**.
 
 | Entity       | Percentage | Amount |
 | ------------ | ---------- | ------ |
-| Reward Board | 3%         | 162    |
-| Quantifiers  | 7%         | 379    |
-| Contributors | 90%        | 4874   |
+| Reward Board | 3%         | 76     |
+| Quantifiers  | 7%         | 178    |
+| Contributors | 90%        | 2292   |
 
 The contributor allocation will be split the following way:
 
 | Platform   | Percentage | Amount |
 | ---------- | ---------- | ------ |
-| SourceCred | 25%        | 1219   |
-| Praise     | 75%        | 3655   |
+| SourceCred | 0%         |        |
+| Praise     | 100%       | 2292   |
 
 ## Praise parameters
 
