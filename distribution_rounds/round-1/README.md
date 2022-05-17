@@ -28,3 +28,9 @@ The contributor allocation will be split the following way:
 | PRAISE_QUANTIFY_ALLOWED_VALUES              | 0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144 |
 | PRAISE_QUANTIFY_RECEIVER_PSEUDONYMS         | false                                  |
 | PRAISE_QUANTIFY_DUPLICATE_PRAISE_PERCENTAGE | 10%                                    |
+
+## HTML report visualizations
+Visit the links below to access the HTML reports without downloading:
+
+-[General RAD Report](https://rawcdn.githack.com/CommonsBuild/tec-rewards/c2eba98a9f6f09993ae69936db2d9485e72f7c48/distribution_rounds/round-1/distribution_results/reports/round-1_general_RAD_report_Report.html)
+

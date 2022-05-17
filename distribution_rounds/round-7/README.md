@@ -1,6 +1,6 @@
-💸 Rewards Round Parameters – Rewards Round 2
+💸 Rewards Round Parameters – Rewards Round 7
 
-# August 2021
+# January 2022
 
 Total amount of TEC to distribute this round: **4154**
 
@@ -23,8 +23,8 @@ The contributor allocation will be split the following way:
 
 | Parameter                                   | Value                                  |
 | ------------------------------------------- | -------------------------------------- |
-| PRAISE_QUANTIFIERS_PER_PRAISE_RECEIVER      | 3                                      |
-| PRAISE_PER_QUANTIFIER                       | 200                                    |
+| PRAISE_QUANTIFIERS_PER_PRAISE_RECEIVER      | 4                                      |
+| PRAISE_PER_QUANTIFIER                       | 250                                    |
 | PRAISE_QUANTIFY_ALLOWED_VALUES              | 0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144 |
 | PRAISE_QUANTIFY_RECEIVER_PSEUDONYMS         | true                                   |
 | PRAISE_QUANTIFY_DUPLICATE_PRAISE_PERCENTAGE | 10%                                    |
@@ -32,8 +32,6 @@ The contributor allocation will be split the following way:
 ## HTML report visualizations
 Visit the links below to access the HTML reports without downloading:
 
--[General RAD Report](https://rawcdn.githack.com/CommonsBuild/tec-rewards/c2eba98a9f6f09993ae69936db2d9485e72f7c48/distribution_rounds/round-2/distribution_results/reports/round-2_general_RAD_report_Report.html)
+-[General RAD Report](https://rawcdn.githack.com/CommonsBuild/tec-rewards/c2eba98a9f6f09993ae69936db2d9485e72f7c48/distribution_rounds/round-7/distribution_results/reports/round-7_general_RAD_report_Report.html)
 
-## Notes
 
-- 2022-03-17: Replaced unresponsive quantifier metaverde with Tam (mattyjee)
