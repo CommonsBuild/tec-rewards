@@ -1,0 +1,362 @@
+[
+  {
+    "createdAt": "2022-05-01 00:00:00 +0000",
+    "giver": {
+      "accountId": "923588346696052737",
+      "name": "Sha#6179",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "573648007384530954",
+      "name": "eduardovegap#0422",
+      "avatarId": "87edaff2185d96694214fd835490a99f",
+      "platform": "DISCORD"
+    },
+    "reason": "taking time to meet with me and giving me valuable tips for a product that I am working on with hope of incorporating it in the TEC",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-03 00:00:00 +0000",
+    "giver": {
+      "accountId": "807036672302383115",
+      "name": "r-x-x#8344",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "480128711941685289",
+      "name": "Mount Manu#3530",
+      "avatarId": "ea5b03ae208b9802f1c1e75d1f489f99",
+      "platform": "DISCORD"
+    },
+    "reason": "the warm introduction yesterday",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-04 00:00:00 +0000",
+    "giver": {
+      "accountId": "249005209710362624",
+      "name": "durgadas#9280",
+      "avatarId": "fd52223eb3a60649ccd2e83b04f65f61",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "869940637594714183",
+      "name": "BiancaGadelha#2667",
+      "avatarId": "035e0a6420a9a982ddbdc7c06e24fb3e",
+      "platform": "DISCORD"
+    },
+    "reason": "her involvement in bringing a psychological focus to Gravity",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-05 00:00:00 +0000",
+    "giver": {
+      "accountId": "869940637594714183",
+      "name": "BiancaGadelha#2667",
+      "avatarId": "035e0a6420a9a982ddbdc7c06e24fb3e",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "480023322080444427",
+      "name": "liviade#1387",
+      "avatarId": "5749f33d32f3d2bf7084c18540ead477",
+      "platform": "DISCORD"
+    },
+    "reason": "explaining how praise works /activate",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "466370740468318208",
+      "name": "solsista#5370",
+      "avatarId": "8e1527bd1816443128bb26787073be8b",
+      "platform": "DISCORD"
+    },
+    "reason": "giving time, attention and care to make the point and space for research and experimentation for regenerative workflows research, hopefully to be spread around in the DAO space!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "231778204950462464",
+      "name": "SatoriD#2945",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "reason": "genious ideas and workflows to come up with an archetypal NFT self-discovery game that will be a gamechanger in TEC and around!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "767698114806546443",
+      "name": "streamerd#5565",
+      "avatarId": "f2e2fd232a5aa78695053f0033ef0f4a",
+      "platform": "DISCORD"
+    },
+    "reason": "genious ideas and workflows to come up with an archetypal NFT self-discovery game that will be a gamechanger in TEC and around!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "735090955560157185",
+      "name": "Jolly LaMa#5962",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "reason": "genious ideas and workflows to come up with an archetypal NFT self-discovery game that will be a gamechanger in TEC and around!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "667979309457080340",
+      "name": "nic#9212",
+      "avatarId": "e754713a2fab19cf2d508a036ed4bc6f",
+      "platform": "DISCORD"
+    },
+    "reason": "such care, minutia and structure to advance all Omega initiatives and TEC onboarding, especially for designing rich Figma boards showcasing all data inputs!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "699013677751205920",
+      "name": "Mert Ozd#6679",
+      "avatarId": "2054a3f03ee750ed3a6861f2cdf9fb73",
+      "platform": "DISCORD"
+    },
+    "reason": "not forgetting the need of connecting WGs with Omega and be up to date with procedures and protocols inside TEC!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "249005209710362624",
+      "name": "durgadas#9280",
+      "avatarId": "fd52223eb3a60649ccd2e83b04f65f61",
+      "platform": "DISCORD"
+    },
+    "reason": "designing and meditating on the most integral DAO to DDO graphic I've seen in the whole space!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "340686435268952064",
+      "name": "Parrachia#0450",
+      "avatarId": "e8992c56ca034abb53c15345b89af0c3",
+      "platform": "DISCORD"
+    },
+    "reason": "showing in Omega and bringing in new resources and ideas, thank you!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "722593944466096134",
+      "name": "ActiveInferenceLab#3629",
+      "avatarId": "fe5c4e5ca788fffc5fada6675e9bd826",
+      "platform": "DISCORD"
+    },
+    "reason": "showing in Omega and bringing in new resources and ideas, thank you!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "630667848355807233",
+      "name": "Jeanne#8780",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "reason": "always keeping us on motion and weaving energies in arts and living dynamic systems!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "768500015043051550",
+      "name": "stef#9877",
+      "avatarId": "db35774eff884f8f3d2fa78d138fce13",
+      "platform": "DISCORD"
+    },
+    "reason": "always keeping us on motion and weaving energies in arts and living dynamic systems!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-11 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "956959106751668236",
+      "name": "withinthevacuum#2626",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "reason": "his omega collective curation and reminder of the soulrising effect of music in humans!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-16 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "768500015043051550",
+      "name": "stef#9877",
+      "avatarId": "db35774eff884f8f3d2fa78d138fce13",
+      "platform": "DISCORD"
+    },
+    "reason": "jamming and hacking together the specs for the Library MVP architecture!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-16 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "767698114806546443",
+      "name": "streamerd#5565",
+      "avatarId": "f2e2fd232a5aa78695053f0033ef0f4a",
+      "platform": "DISCORD"
+    },
+    "reason": "jamming and hacking together the specs for the Library MVP architecture!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-16 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "231778204950462464",
+      "name": "SatoriD#2945",
+      "avatarId": null,
+      "platform": "DISCORD"
+    },
+    "reason": "jamming and hacking together the specs for the Library MVP architecture!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  },
+  {
+    "createdAt": "2022-05-16 00:00:00 +0000",
+    "giver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "receiver": {
+      "accountId": "770813150672846868",
+      "name": "Letty#5399",
+      "avatarId": "741c1631eca0dfb9ef3ebb85376ae2f0",
+      "platform": "DISCORD"
+    },
+    "reason": "jamming and hacking together the specs for the Library MVP architecture!",
+    "sourceId": "DISCORD:810180621930070088:810180622336262195",
+    "sourceName": "DISCORD:Token%20Engineering%20Commons:%F0%9F%99%8F%EF%BD%9Cpraise"
+  }
+]
