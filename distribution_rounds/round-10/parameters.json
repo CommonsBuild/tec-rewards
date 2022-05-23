@@ -26,6 +26,10 @@
         ],
         "praise_quantify_receiver_pseudonyms": false,
         "praise_quantify_duplicate_praise_valuation": 0.1
+      },
+      "cross_period_settings": {
+      	"cross_period_week_num": 40,
+      	"cross_period_step_size": 2      	
       }
     },
     "sourcecred": {
