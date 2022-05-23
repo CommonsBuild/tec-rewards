@@ -11,7 +11,7 @@ Out of the total rewards:
 This data has been reviewed by the Quantifiers and the Reward Board, and has been submitted for distribution to the [Reward Board DAO 1](https://xdai.aragon.blossom.software/#/rewardboardtec/)
 
 
-You can check out the full period analysis [here](ADD LINK HERE). :bar_chart:
+You can check out the full period analysis [here](https://rawcdn.githack.com/CommonsBuild/tec-rewards/c2eba98a9f6f09993ae69936db2d9485e72f7c48/distribution_rounds/round-1/distribution_results/reports/round-1_general_RAD_report_Report.html). :bar_chart:
 
 This post will be open to the community for review for 48 hours then submitted to the Reward Board for final execution. :heavy_check_mark:
 
