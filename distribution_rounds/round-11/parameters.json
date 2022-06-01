@@ -2,7 +2,7 @@
   "distribution_name": "round-11",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["4154", "0"],
+  "token_allocation_per_reward_system": ["1876", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
@@ -26,6 +26,10 @@
         ],
         "praise_quantify_receiver_pseudonyms": false,
         "praise_quantify_duplicate_praise_valuation": 0.1
+      },
+      "cross_period_settings": {
+      	"cross_period_week_num": 40,
+      	"cross_period_step_size": 2      	
       }
     },
     "sourcecred": {
