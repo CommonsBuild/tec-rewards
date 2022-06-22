@@ -110,7 +110,7 @@ The Rewards Distribution for this round is as follows:
 | Costa#7828                    |         2.27713  |
 | teresacd#7426                 |         2.19861  |
 | Pythagorean#5361              |         2.19861  |
-| Davide  ValueUnbanking#1449  |         2.04157  |
+| Davide | ValueUnbanking#1449  |         2.04157  |
 | Crypto Zach#6753              |         2.04157  |
 | Leo Mapu#9273                 |         1.98817  |
 | DenverCitizen9#9674           |         1.72748  |
@@ -118,7 +118,7 @@ The Rewards Distribution for this round is as follows:
 | KZ Flyer#0926                 |         1.57044  |
 | taxil#8577                    |         1.25635  |
 | osycross(🦎🦎)#5943           |         1.1527   |
-| claragromaches  dOrg#7166    |         1.04591  |
+| claragromaches | dOrg#7166    |         1.04591  |
 | freshelle#9882                |         0.992515 |
 | ZER8🧠#9093                   |         0.942261 |
 | Jack Hayter#0036              |         0.863739 |
