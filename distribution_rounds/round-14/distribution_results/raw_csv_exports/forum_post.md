@@ -1,5 +1,5 @@
 
-# TEC Rewards Distribution - round-13  - 20/06/22 to 02/07/22
+# TEC Rewards Distribution - round-14  - 20/06/22 to 02/07/22
 This period covers praise given between **20 June 2022 and 02 July 2022**. We allocated **1876** TEC tokens for rewards, with a **100:0** split between Praise and Sourcecred. Some praise accounts still haven’t been activated so the total amount below will be less than what we set aside to distribute.
 
 Out of the total rewards:
