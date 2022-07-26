@@ -1,5 +1,5 @@
 {
-  "distribution_name": "round-13",
+  "distribution_name": "round-14",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
   "token_allocation_per_reward_system": ["1876", "0"],
