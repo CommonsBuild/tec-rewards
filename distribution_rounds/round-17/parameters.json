@@ -1,0 +1,45 @@
+{
+  "distribution_name": "round-17",
+  "results_output_folder": "distribution_results",
+  "employed_reward_systems": ["praise", "sourcecred"],
+  "token_allocation_per_reward_system": ["5628", "3839.1"],
+  "system_settings": {
+    "praise": {
+      "input_files": {
+        "praise_data": "praise.csv",
+        "rewardboard_list": "rewardboard.csv",
+        "cross_period_root": ".."
+      },
+      "payout_token": {
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
+      },
+      "token_reward_percentages": {
+        "contributor_rewards": 0.9,
+        "quantifier_rewards": 0.07,
+        "rewardboard_rewards": 0.03
+      },
+      "quantification_settings": {
+        "number_of_quantifiers_per_praise_receiver": 4,
+        "praise_quantify_allowed_values": [
+          0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144
+        ],
+        "praise_quantify_receiver_pseudonyms": false,
+        "praise_quantify_duplicate_praise_valuation": 0.1
+      },
+      "cross_period_settings": {
+      	"cross_period_week_num": 40,
+      	"cross_period_step_size": 2      	
+      }
+    },
+    "sourcecred": {
+      "input_files": {
+        "sourcecred_data": "sourcecred.csv"
+      },
+      "payout_token": {
+        "token_name": "TEC",
+        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
+      }
+    }
+  }
+}
