@@ -1,12 +1,12 @@
 {
   "distribution_name": "round-3",
-  "results_output_folder": "distribution_results",
+  "results_output_folder": "distribution_results.2",
   "employed_reward_systems": ["praise", "sourcecred"],
   "token_allocation_per_reward_system": ["4020", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
-        "praise_data": "praise.csv",
+        "praise_data": "praise.2.csv",
         "rewardboard_list": "rewardboard.csv",
         "cross_period_root": ".."
       },
