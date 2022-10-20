@@ -1,6 +1,6 @@
 
 # TEC Rewards Distribution - round-19  - 26/09/22 to 09/10/22
-This period covers praise given between **26 September 2022 and 09 October 2022**. We allocated **3155.7** TEC tokens for rewards, with a **59:40** split between Praise and Sourcecred. Some praise accounts still haven’t been activated so the total amount below will be less than what we set aside to distribute.
+This period covers praise given between **26 September 2022 and 09 October 2022**. We allocated **3155.7** TEC tokens for rewards, with a **59:40** split between Praise and Sourcecred. Some praise accounts still haven’t been activated so the total amount below will be less than what we set aside to distribute. Please note that the Sourcecred allocation corresponds to the **9th retroactive Sourcecred distribution**.  Check [this post](https://forum.tecommons.org/t/tec-rewards-distribution-june-2022-pt-1/1107/3?u=0xnuggan) for more information.
 
 Out of the total rewards:
 
