@@ -2,7 +2,7 @@
   "distribution_name": "round-21",
   "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["855", "0"],
+  "token_allocation_per_reward_system": ["1874", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
@@ -17,7 +17,8 @@
       "token_reward_percentages": {
         "contributor_rewards": 0.9,
         "quantifier_rewards": 0.07,
-        "rewardboard_rewards": 0.03
+        "rewardboard_rewards": 0.03,
+        "ceiling_cutoff": 158
       },
       "quantification_settings": {
         "number_of_quantifiers_per_praise_receiver": 4,
