@@ -1,23 +1,24 @@
 {
-  "distribution_name": "round-6",
-  "results_output_folder": "distribution_results.2",
+  "distribution_name": "round-27",
+  "results_output_folder": "distribution_results",
   "employed_reward_systems": ["praise", "sourcecred"],
-  "token_allocation_per_reward_system": ["4154", "0"],
+  "token_allocation_per_reward_system": ["58000", "0"],
   "system_settings": {
     "praise": {
       "input_files": {
-        "praise_data": "praise.2.csv",
+        "praise_data": "praise.csv",
         "rewardboard_list": "rewardboard.csv",
         "cross_period_root": ".."
       },
       "payout_token": {
-        "token_name": "TEC",
-        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
+        "token_name": "GIV",
+        "token_address": "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75"
       },
       "token_reward_percentages": {
         "contributor_rewards": 0.9,
         "quantifier_rewards": 0.07,
-        "rewardboard_rewards": 0.03
+        "rewardboard_rewards": 0.03,
+        "ceiling_cutoff": 1500
       },
       "quantification_settings": {
         "number_of_quantifiers_per_praise_receiver": 4,
@@ -26,6 +27,10 @@
         ],
         "praise_quantify_receiver_pseudonyms": false,
         "praise_quantify_duplicate_praise_valuation": 0.1
+      },
+      "cross_period_settings": {
+      	"cross_period_week_num": 52,
+      	"cross_period_step_size": 2      	
       }
     },
     "sourcecred": {
@@ -33,8 +38,8 @@
         "sourcecred_data": "sourcecred.csv"
       },
       "payout_token": {
-        "token_name": "TEC",
-        "token_address": "0x5dF8339c5E282ee48c0c7cE8A7d01a73D38B3B27"
+        "token_name": "GIV",
+        "token_address": "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75"
       }
     }
   }
