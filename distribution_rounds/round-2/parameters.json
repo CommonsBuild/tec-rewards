@@ -21,7 +21,7 @@
         "ceiling_cutoff": 1500
       },
       "quantification_settings": {
-        "number_of_quantifiers_per_praise_receiver": 4,
+        "number_of_quantifiers_per_praise_receiver": 3,
         "praise_quantify_allowed_values": [
           0, 1, 3, 5, 8, 13, 21, 34, 55, 89, 144
         ],
